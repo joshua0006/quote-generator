@@ -1,0 +1,56 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background: url(image/background.svg) no-repeat center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  border-radius: 20px;
+  width: 80%;
+  height: 80%;
+  margin: auto;
+  backdrop-filter: blur(20px);
+}
+.quotation{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.quote{
+  font-family: "Style Script", Arial;
+  font-size: 7vw;
+  margin-bottom: 7vh;
+  text-align: center;
+}
+.author{
+  font-family: monospace;
+  font-size: 3vh;
+  border-top: 1px solid rgba(0, 0, 0, 0.7);
+  padding-top: 40px;
+}
+button{
+  background-color: darkslateblue;
+  color: lightblue;
+  margin: auto;
+  font-size: 1.5rem;
+  width: 200px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+  cursor: pointer;
+}
+button:active {
+  transform: scale(0.96);
+}
