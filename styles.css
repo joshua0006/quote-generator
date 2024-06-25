@@ -14,6 +14,7 @@ body{
 .container{
   display: flex;
   flex-direction: column;
+  align-items: center;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
   border-radius: 20px;
   width: 80%;
@@ -22,6 +23,7 @@ body{
   backdrop-filter: blur(20px);
 }
 .quotation{
+  margin: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -40,6 +42,8 @@ body{
   padding-top: 40px;
 }
 button{
+  position: fixed;
+  bottom: 50px;
   background-color: darkslateblue;
   color: lightblue;
   margin: auto;
